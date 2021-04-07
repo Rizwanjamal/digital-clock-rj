@@ -7,7 +7,7 @@ body {
 
 
 #clockContainer {
-    color: #17D4FE;
+    color: ffc107;
     font-size: 60px;
     font-family: Orbitron;
     letter-spacing: 7px;
@@ -16,7 +16,7 @@ body {
 .mainContainer {
     text-align: center;
     font-family: "Orbitron", sans-serif;
-    color: cyan;
+    color: ffc107;
     width: 500px;
     padding: 20px;
     font-size: 40px;
@@ -34,7 +34,7 @@ button {
     height: 30px;
     border-radius: 5px;
     background-color: rgb(19, 20, 25);
-    color: cyan;
+    color: ffc107;
     border-style: none;
     cursor: pointer;
     box-shadow: -3px -3px 7px rgba(255, 255, 255, 0.05),
