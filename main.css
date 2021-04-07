@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(19, 20, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#clockContainer {
+    color: #17D4FE;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
+
+.mainContainer {
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    color: cyan;
+    width: 500px;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    background-color: rgb(19, 20, 25);
+    box-shadow: -3px -3px 7px rgba(255, 255, 255, 0.05),
+    3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    margin: 20px 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(19, 20, 25);
+    color: cyan;
+    border-style: none;
+    cursor: pointer;
+    box-shadow: -3px -3px 7px rgba(255, 255, 255, 0.05),
+    3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+button:focus {
+    box-shadow: -3px -3px 7px rgba(0, 0, 0, 0.5),
+    3px 3px 5px rgba(255, 255, 255, 0.05);
+    outline: none;
+}
+
+button:active {
+    border-style: none;
+}
+
+#dateContainer {
+    font-size: 27px;
+    text-align: center;
+}
